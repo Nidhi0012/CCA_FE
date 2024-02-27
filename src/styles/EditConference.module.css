@@ -1,0 +1,51 @@
+.container_edit_conf {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 100px;
+}
+
+.editConferenceCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  border-radius: 10px;
+  border: 0.6px solid;
+  margin-top: 7px;
+}
+
+.card_body {
+  flex: 1 1 auto;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.submit_btn {
+  background-color: rgb(63, 71, 90);
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cardHeader {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 45px;
+}
+
+.radio_option {
+  margin-bottom: 2px;
+}
+
+.radio_label {
+  margin-right: 8px;
+  margin-left: 8px;
+}

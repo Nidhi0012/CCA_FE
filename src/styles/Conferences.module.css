@@ -1,0 +1,86 @@
+.addConfBtn {
+  background: rgb(87, 98, 122);
+  color: rgb(255, 255, 255);
+  display: block;
+  border-radius: 10px;
+  padding: 0.5rem 1rem !important;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  border-color: 0.15s ease-in-out;
+  font-weight: 600;
+  letter-spacing: 2px;
+  outline: none;
+  border: 1px solid rgb(63, 71, 90);
+  margin-right: 12px;
+  
+}
+
+.addConfBtn:hover {
+  background: transparent;
+  color: rgb(87, 98, 122);
+}
+
+.cardCss {
+  transition: transform 0.2s;
+  padding-top: 10px;
+}
+
+.cardCss:hover {
+  transform: scale(1.1);
+  border: 2px solid rgb(87, 98, 122);
+}
+
+.confName {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  width: 342px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  color: rgb(31, 93, 132);
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: rgb(87, 98, 122);
+  color: #fff;
+  border-radius: 10px;
+  max-width: 120px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  transition: 0.3s;
+  border: 1px solid rgb(87, 98, 122);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.button:hover {
+  background: transparent;
+  color: rgb(87, 98, 122);
+}
+
+.badge {
+  padding-left: 5px;
+  width: fit-content;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border-radius: 12px;
+  background-color: #e6dcdc;
+  color: white;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  vertical-align: text-bottom;
+  margin-top: 4px;
+}
+
